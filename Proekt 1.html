@@ -3,19 +3,17 @@
 <head>
 <meta charset = "utf-8">
 <title>Мени</title>
-<link rel = "stylesheet" href ="style.css">
 </head>
 
 <body>
-  <h1>Ручек специјалитети</h1>  
 
-<div>
-<p class="pocetok"><span>од Понеделник до Петок</span>
-    <br><span>11:00 - 15:00</span>
-    <br><span><strong>350 ден.</strong> + ДДВ</span>
+<h1>Ручек специјалитети</h1>
+<p>од Понеделник до Петок
+    <br>11:00 - 15:00
+    <br>350 ден. + ДДВ
 </p>
-<p><span><em>Ручекот се состои од главно јадење, десерт и пијалок.</em></span>
-</p></div>
+<p>Ручекот се состои од главно јадење, десерт и пијалок.
+</p>
 <fieldset>
 
     <legend style="font-size:20px">
@@ -23,14 +21,14 @@
     <br>
     <tr>
         Име:
-        <input name = "name" type="text" size="25" max lenght="30" placeholder="Вашето име..."/>
+        <input name = "name" type="text" size="25" max lenght="30"/>
     </tr>
     <p>
         <input type="radio" id="here" name="nacin" value="За тука">
-        <label for="here">За тука</label><br>
+        <label for="here">За тука</label><br>
     
         <input type="radio" id="to go" name="nacin" value="За носење">
-        <label for="to go">За носење</label><br>
+        <label for="to go">За носење</label><br>
     </p>
 </fieldset>
 <fieldset>
@@ -41,51 +39,51 @@
         <label><strong>Понеделник:</strong></label>
         <br>
         <input type="radio" id="шб" name="понеделник" value="шпагети болоњезе">
-        <label for="шб">шпагети болоњезе</label><br>
+        <label for="шб">шпагети болоњезе</label><br>
     
         <input type="radio" id="шк" name="понеделник" value="шпагети карбонара">
-        <label for="шк">шпагети карбонара</label><br>
+        <label for="шк">шпагети карбонара</label><br>
     </p>
     <p>
         <label><strong>Вторник:</strong></label>
         <br>
         <input type="radio" id="пк" name="вторник" value="плескавица со компири">
-        <label for="пк">плескавица со компири</label><br>
+        <label for="пк">плескавица со компири</label><br>
     
         <input type="radio" id="по" name="вторник" value="плескавица со ориз">
-        <label for="по">плескавица со ориз</label><br>
+        <label for="по">плескавица со ориз</label><br>
     </p>
     <p>
         <label><strong>Среда:</strong></label>
         <br>
         <input type="radio" id="ќп" name="среда" value="ќофте со пире">
-        <label for="ќп">ќофте со пире</label><br>
+        <label for="ќп">ќофте со пире</label><br>
     
         <input type="radio" id="кп" name="среда" value="кременадла со пире">
-        <label for="кп">кременадла со пире</label><br>
+        <label for="кп">кременадла со пире</label><br>
     </p>
     <p>
         <label><strong>Четврток:</strong></label>
         <br>
         <input type="radio" id="пк" name="четврток" value="пица каприциоза">
-        <label for="пк">пица каприциоза</label><br>
+        <label for="пк">пица каприциоза</label><br>
     
         <input type="radio" id="пп" name="четврток" value="пица пеперони">
-        <label for="пп">пица пеперони</label><br>
+        <label for="пп">пица пеперони</label><br>
     </p>
     <p>
         <label><strong>Петок:</strong></label>
         <br>
         <input type="radio" id="г" name="петок" value="грав">
-        <label for="г">грав</label><br>
+        <label for="г">грав</label><br>
     
         <input type="radio" id="л" name="петок" value="леќа">
-        <label for="л">леќа</label><br>
+        <label for="л">леќа</label><br>
     </p>
 
     <hr>
     <input type="checkbox" id="gl" name="gluten free" value="gluten free леб">
-    <label for="gl">Gluten Free леб (+ 70 ден.)</label>
+    <label for="gl">Gluten Free леб (+ 70 ден.)</label>
 </fieldset>
 <fieldset>
 
@@ -95,34 +93,34 @@
         <label><strong>Десерти:</strong></label>
         <br>
         <input type="radio" id="ј" name="десерт" value="Јаболко">
-        <label for="ј">Јаболко</label><br>
+        <label for="ј">Јаболко</label><br>
     
         <input type="radio" id="б" name="десерт" value="Банана">
-        <label for="б">Банана</label><br>
+        <label for="б">Банана</label><br>
 
         <input type="radio" id="к" name="десерт" value="Колач">
-        <label for="к">Колач</label><br>
+        <label for="к">Колач</label><br>
     </p>
 </fieldset>
-<fieldset >
+<fieldset>
 
     <legend style="font-size:20px">
     Пијалок:</legend>
     <p>
         <label><strong>Пијалоци:</strong></label>
         <br>
-        <select  id="п" name="пијалок" class="custom-select">
+        <select  id="п" name="пијалок">
         <option value="Вода">Вода</option>
         <option value="кока кола">Кока Кола</option>
         <option value="фанта">Фанта</option>
         <option value="Чај">Чај</option>>
         <option value="Кафе">Кафе</option>>
-        </select>
+        </select>
     
     </p>
     <hr>
     <input type="checkbox" id="г" name="голем пијалок" value="Голем пијалок">
-    <label for="г">Голем пијалок (+ 40 ден.)</label>
+    <label for="г">Голем пијалок (+ 40 ден.)</label>
 </fieldset>
 <input type = "submit" value = "Нарачај">
 </body>
