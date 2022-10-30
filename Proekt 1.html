@@ -3,17 +3,19 @@
 <head>
 <meta charset = "utf-8">
 <title>Мени</title>
+<link rel = "stylesheet" href ="style.css">
 </head>
 
 <body>
+  <h1>Ручек специјалитети</h1>  
 
-<h1>Ручек специјалитети</h1>
-<p>од Понеделник до Петок
-    <br>11:00 - 15:00
-    <br>350 ден. + ДДВ
+<div>
+<p class="pocetok"><span>од Понеделник до Петок</span>
+    <br><span>11:00 - 15:00</span>
+    <br><span><strong>350 ден.</strong> + ДДВ</span>
 </p>
-<p>Ручекот се состои од главно јадење, десерт и пијалок.
-</p>
+<p><span><em>Ручекот се состои од главно јадење, десерт и пијалок.</em></span>
+</p></div>
 <fieldset>
 
     <legend style="font-size:20px">
@@ -21,7 +23,7 @@
     <br>
     <tr>
         Име:
-        <input name = "name" type="text" size="25" max lenght="30"/>
+        <input name = "name" type="text" size="25" max lenght="30" placeholder="Вашето име..."/>
     </tr>
     <p>
         <input type="radio" id="here" name="nacin" value="За тука">
@@ -102,14 +104,14 @@
         <label for="к">Колач</label><br>
     </p>
 </fieldset>
-<fieldset>
+<fieldset >
 
     <legend style="font-size:20px">
     Пијалок:</legend>
     <p>
         <label><strong>Пијалоци:</strong></label>
         <br>
-        <select  id="п" name="пијалок">
+        <select  id="п" name="пијалок" class="custom-select">
         <option value="Вода">Вода</option>
         <option value="кока кола">Кока Кола</option>
         <option value="фанта">Фанта</option>
